@@ -1,0 +1,81 @@
+\documentclass{resume}
+
+\usepackage[left=0.4in,top=0.4in,right=0.6in,bottom=0.4in]{geometry}
+\usepackage{hyperref}
+\usepackage{fontawesome}
+\usepackage{url}
+\usepackage{xcolor}
+\usepackage[super]{nth}
+\usepackage{multicol}
+\usepackage{hyperref}
+\hypersetup {
+    colorlinks=true,
+    linkcolor=colorlink,
+    filecolor=magenta,      
+    urlcolor=colorlink,
+}
+
+\name{Rounak Datta}
+\address{ \href{mailto:rounakdatta12@gmail.com}{rounakdatta12@gmail.com} \hspace{3} \\ \hspace{3} \href{https://rounakdatta.github.io}{rounakdatta.github.io} \hspace{3} \\ \hspace{3} \faGithub/\href{https://github.com/rounakdatta}{rounakdatta} \hspace{3} \\ \hspace{3} \href{tel:+919432201722}{+91 9432201722}  }
+\def\nameskip{\bigskip}
+\def\sectionskip{\medskip}
+
+\begin{document}
+
+  \begin{rSection}{Education}
+    {\bf SRM Institute of Science \& Technology, Chennai, India} \hfill {\em Jul `16 - May `20} \\ 
+    { B.Tech in Computer Science \& Engineering } \\
+    \textbullet\ CGPA: 8.93
+    
+  \end{rSection}
+  
+  \begin{rSection}{Experience}
+  
+    \begin{rSubsection}{\href{https://tech.hotstar.com/}{Hotstar}}{Bengaluru, India}{SDE Intern}{June `19 - Jul `19}
+    \item[] Worked closely with the \textbf{Data Platform} team
+    \item Achieved over 50\% improvements in query times and over 35\% reductions in data lake storage costs through design and development of a batch-based Resource Optimization framework
+    \item Automated the job workflow, failure handling, set up monitoring dashboards and alerting triggering pipeline on production data for all daily events\\
+    \textbullet\ \texttt{Spark, Hive, Oozie, InfluxDB, Grafana, AWS: Scala, Shell, Java, Python}
+    \end{rSubsection}
+
+    \begin{rSubsection}{\href{https://www.guvi.in/}{Guvi Geek Networks}}{Chennai, India}{Full Stack Development Intern}{Dec `18}
+    \item[] Responsible for the v1 of Guvi 2.0 platform - an adaptive \textbf{performance-based learning platform}
+    \item Built the Back End services and designed \textit{learning path} recommendation algorithms\\
+    \textbullet\ \texttt{Flask, MySQL, MongoDB: Python, Javascript}
+    \end{rSubsection}
+
+    \vspace*{-\baselineskip}
+
+    \begin{rSubsection}{}{}{NLP Intern}{Mar `18 - Jul `18}
+    \item Developed an in-house \textbf{resume parsing} system with sub-second query latency for 1MN+ data
+    \item Designed and developed an English \textbf{spelling \& grammatical corrector} - achieved around 73\% accuracy when benchmarked with Grammarly \& human proofreading\\
+    \textbullet\ \texttt{SpaCy, gensim, NLTK, Keras, Flask, Redis: Python, Javascript}
+    \end{rSubsection}
+  
+  \end{rSection}
+  
+    \begin{rSection}{Technical Strengths}
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+      Programming Languages & Python, Scala, Shell, Go, Java, Javascript, C++, Erlang \\
+      Web \& Mobile & Node.js, Flask, Django, Spring Boot \& Android SDK, Ionic Cordova\\
+      Data Processing & Spark, Hadoop MR, Hive, Kafka, Oozie, Grafana, EMR \\
+      Databases & MySQL, PostgreSQL, RDS, Redis, Memcached, MongoDB, InfluxDB \\
+    \end{tabular}
+  \end{rSection}
+  
+   \begin{rSection}{Honours}
+    \textbullet\  \textbf{NIPP Blockchain Challenge `18} | First prize for disrupting P2P microlending solution\\
+    \textbullet\  \textbf{TechGig CG Blockchain `18} \, \, \, \, | Second prize for unique FinTech hack 
+    \end{rSection}
+  
+    \begin{rSection}{Favorite Projects}
+    \textbullet\ \textbf{\href{https://www.notion.so/OTA-update-on-STM32-through-ESP32-51fce118929f4258a431e8de494b10a4}{IoT Utilities}}: 
+    Projects involving programmed ESP32 bundled with cross-platform apps\\
+    \hspace*{0.15cm} Use cases involving from-board OTA update of devices, gas-level remote monitoring with push notifications\\
+    \textbullet\ \textbf{\href{https://github.com/rounakdatta/digital-assistant}{Digital Assistant}}: Open-source chatbot with e-commerce querying capabilities\\
+    \hspace*{0.15cm} Standalone as well as pluggable conversational assistant built atop Rasa\\
+    \textbullet\ \textbf{\href{https://github.com/rounakdatta/imgsrvc}{Needle In Haystack}}: Image Storage and retrieval infrastructure for high read throughput\\
+    \hspace*{0.15cm} Efficient \textit{file-system} based storage implemented from Facebook's \href{https://www.usenix.org/legacy/event/osdi10/tech/full_papers/Beaver.pdf}{paper}
+  \end{rSection}
+
+\end{document}
