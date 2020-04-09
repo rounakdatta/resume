@@ -12,10 +12,11 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\def\normalsize{\@normalsize}
+
 \usepackage{xcolor}
 \usepackage{calc}
 \usepackage{tabu}
-\usepackage{fontawesome}
 
 \definecolor{colorlink}{HTML}{224191}
 \definecolor{lightestgray}{HTML}{A9A9A9}
