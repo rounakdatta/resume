@@ -12,6 +12,8 @@
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
+\def\normalsize{\@normalsize}
+
 \usepackage{xcolor}
 \usepackage{calc}
 \usepackage{tabu}
