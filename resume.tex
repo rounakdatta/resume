@@ -21,15 +21,21 @@
 \def\sectionskip{\medskip}
 
 \begin{document}
+
+  \begin{rSection}{Education}
+    \begin{rEmptySubsection}{\href{https://www.srmist.edu.in/}{SRM Institute of Science and Technology}}{Chennai, India}{B.Tech, Computer Science, CGPA: 8.90/10}{Jul `16 - May `20}
+    \end{rEmptySubsection}
+
+  \end{rSection}
+
+  \begin{rSection}{Experience}
   
-  \begin{rSection}{Work Experience}
-  
-    \begin{rSubsection}{\href{https://tech.hotstar.com/}{Disney+ Hotstar}}{Bengaluru, India}{Software Development Engineer (Data Platform, Subscriptions \& Payments)}{Jul `20 - Present}
-      \item Designed \& implemented a \textbf{streaming data quality framework} which validates incoming events at the ingestion layer. Also built its self-serve tooling (JSON Schema visual editor) and CLI for development sign-off. Also contributed patches to our batch data quality framework which helped in guardrailing ETLs.
-      \item Migration of various critical platform ETLs from \textbf{Oozie to Airflow}; wrote Airflow operators which helped in abstraction and reusability of commonly-used workflows across org. Participated in on-call rotations to maintain platform SLAs.
-      \item Re-architected our \textbf{Change-Data-Capture framework} to improve parallelization, reliability and data-freshness. Also designed a declarative pipeline to automate onboarding of new CDC jobs.
-      \item \textbf{Growth Engineering}: Led the efforts on enabling Data Platform, Subscriptions \& Payments services to new markets of Indonesia, Malaysia, Thailand, included re-wiring subscriptions partnership with local telecom providers.
-      \item Designing and architecting a fault-tolerant Hotstar backend for supporting \textbf{Google IAP} for subscriptions management, mentored new team members, participated in on-call rotations to address geo-specific incidents.\\
+    \begin{rSubsection}{\href{https://tech.hotstar.com/}{Disney+ Hotstar}}{Bengaluru, India}{Software Development Engineer (Data Platform, Growth Engineering)}{Jul `20 - Present}
+      \item Designed \& implemented a \textbf{streaming data quality framework} which validates incoming events at the ingestion layer. Also built its self-serve tooling (JSON Schema visual editor) and CLI complements. Also contributed patches to our platform-wide batch data quality suite.
+      \item Migrated various critical platform ETLs from \textbf{Oozie to Airflow}; wrote Airflow operators which helped in abstraction and reusability of commonly-used workflows across org. Addressed wide range of production incidents as on-call engineer.
+      \item Re-architected our \textbf{Change-Data-Capture framework} to improve parallelization, configurability, reliability and data-freshness. Also designed a declarative pipeline to automate onboarding of new CDC jobs.
+      \item Led the efforts in \textbf{Growth Engineering} team to enable Data Platform, Subscriptions \& Payments services to new markets in South-East Asia; introduced major refactors to the subscriptions partnership framework which cut down new onboarding times by over 80\%.
+      \item Designed and architected a fault-tolerant Hotstar backend for supporting \textbf{Android in-app-payments} for subscriptions management; mentored new team members and participated in on-call rotations to address geo-specific incidents.\\
     \textbullet\ \texttt{Spark, Hive, Kafka, HBase, Airflow, Spring; Java, Scala, Python, Ansible, Terraform; ReactJS}
     \end{rSubsection}
     
@@ -44,38 +50,56 @@
     \begin{rSubsection}{\href{https://www.guvi.in/}{Guvi Geek Networks}}{Chennai, India}{Full Stack Development Intern}{Dec `18}
     \item Responsible for collaborating on Guvi 2.0 platform, an adaptive \textbf{performance-based learning platform}.
     \item Built the backend services and designed simple \textit{learning pathway} recommendation algorithms.\\
-    \textbullet\ \texttt{Flask, sklearn; Python}
+    \textbullet\ \texttt{Flask, MongoDB, Redis, sklearn; Python}
     \end{rSubsection}
     \vspace*{-\baselineskip}
 
     \begin{rSubsection}{}{}{NLP Intern}{Mar `18 - Jul `18}
-    \item Developed an in-house \textbf{resume parsing} system with sub-second query latency for 1MN+ data (database-based indexing).
-    \item Designed and developed an English \textbf{spelling \& grammatical corrector}: achieved around 73\% accuracy when benchmarked with Grammarly \& human proofreading.\\
-    \textbullet\ \texttt{Flask, SpaCy, NLTK, MongoDB; Python}
-    \end{rSubsection}
-  
-  \end{rSection}
-
-  \begin{rSection}{Education}
-    {\bf SRM Institute of Science \& Technology, Chennai, India} \hfill {\em Jul `16 - May `20} \\
-    { B.Tech in Computer Science \& Engineering } \\
-    \textbullet\ Performance: 8.93 / 10\\
-    \textbullet\ Next Tech Lab: Research team, collaborated on Cryptography \& Blockchain projects, won 2 national hackathons.
+    \item Developed an in-house \textbf{resume parsing} system with sub-second query latency for 20K+ data; our software supports a diverse range of resume formats.
+    \item Designed and developed an English \textbf{spelling \& grammatical corrector}; achieved around 73\% accuracy when benchmarked with Grammarly \& human proofreading.\\
+    \textbullet\ \texttt{SpaCy, NLTK; Python}
+  \end{rSubsection}
 
   \end{rSection}
-  
-    \begin{rSection}{Technical Strengths}
+
+  \begin{rSection}{Technical Strengths}
+
     \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
       Programming Languages & Java, Go, Python, Scala, C++\\
-      Databases & MySQL, Redis, RocksDB; Prometheus, InfluxDB\\
-      Processing frameworks & Apache Spark, Apache Kafka, Apache Hive \\
+      Databases & MySQL, Redis; Prometheus, InfluxDB; Apache Hive\\
+      Frameworks & Apache Spark, Apache Kafka, Spring Framework; Terraform\\
       Application Development & ReactJS; Android SDK, Ionic Cordova\\
     \end{tabular}
   \end{rSection}
-  
-    \begin{rSection}{Favorite Projects}
-    \textbullet\ \textbf{\href{https://github.com/rounakdatta/GoDFS}{GoDFS}}: Simple Distributed FileSystem implementation in Go.\\
-    \textbullet\ \textbf{\href{https://github.com/rounakdatta/computer.setup}{computer.setup}}: Project to demonstrate Workstation-setup-as-Code.
+
+    \begin{rSection}{Publications}
+      \begin{rEmptySubsection}{Comparative Analysis of Bayesian Methods for Estimation of Locally-Invariant\\Extremes [\href{https://www.researchgate.net/publication/335985085_Comparative_Analysis_of_Bayesian_Methods_for_Estimation_of_Locally-Invariant_Extremes}{\faicon{link}}]}{\textit{IEEE ICECIE '19}}{Moinak Bhattacharya, \underline{Rounak Datta}, Annie Uthra}{~}
+      \end{rEmptySubsection}
+
+      \begin{rEmptySubsection}{IoT Visibility Issues and Securing using Deep Neural Networks [\href{https://www.researchgate.net/publication/336057690_IoT_Visibility_Issues_and_Securing_using_Deep_Neural_Networks}{\faicon{link}}]}{\textit{IEEE ICCES '19}}{\underline{Rounak Datta}, Moinak Bhattacharya, Annie Uthra}{~}
+      \end{rEmptySubsection}
+
+    \end{rSection}
+
+    \begin{rSection}{Honors \& Awards}
+      \begin{rEmptySubsection}{University funding for ICECIE '19, Malaysia}{\textit{SRM IST}}{Received funding for presenting and publishing research}{~}
+      \end{rEmptySubsection}
+
+      \begin{rEmptySubsection}{NIPP Blockchain Challenge 2018 Winner}{\textit{NASSCOM}}{Built an innovative P2P microlending solution - won the first prize at NIPP Innovation Day}{~}
+      \end{rEmptySubsection}
+
+      \begin{rEmptySubsection}{TechGig CodeGladiator Blockchain Hackathon 2018 Runners-up}{\textit{Team TechGig}}{Demonstrated the practicality of private blockchains in credit lending industry - won the second prize}{~}
+      \end{rEmptySubsection}
+
+    \end{rSection}
+
+    \begin{rSection}{Selected Projects}
+    \textbullet\ \textbf{\textsf{GoDFS}} [\textbf{\href{https://rounakdatta.github.io/posts/godfs}{\faicon{link}}}] [\textbf{\href{https://github.com/rounakdatta/GoDFS}{\faicon{github}}}] -  Implemented a  Distributed FileSystem in Go. Handled the aspects of hearbeat \& secondary namenode for fault tolerance; packaged as Docker Compose.
+
+    \textbullet\ \textbf{\textsf{Argus (PagerDuty for Things)}} [\textbf{\href{https://rounakdatta.github.io/posts/pagerduty-for-iot}{\faicon{link}}}] [\textbf{\href{https://github.com/rounakdatta?tab=repositories&q=argus}{\faicon{github}}}] - An IoT project exhibiting continuous monitoring of fluid level and automated alerting on mobile devices.
+
+    \textbullet\ Major \emph{open-source contributions} to projects include \textbf{\textsf{Gopass}} [\textbf{\href{https://github.com/gopasspw/gopassbridge}{\faicon{github}}}], \textbf{\textsf{Android-Password-Store}} [\textbf{\href{https://github.com/android-password-store/Android-Password-Store}{\faicon{github}}}], \textbf{\textsf{Apache Airflow}} [\textbf{\href{https://github.com/apache/airflow}{\faicon{github}}}].
+
   \end{rSection}
 
 \end{document}
