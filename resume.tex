@@ -8,6 +8,7 @@
 \usepackage{multicol}
 \usepackage{hyperref}
 \usepackage{fontawesome}
+\usepackage{textcomp}
 \hypersetup {
     colorlinks=true,
     linkcolor=colorlink,
@@ -30,45 +31,47 @@
 
 \begin{rSection}{Experience}
 
-  \begin{rSubsection}{\href{https://tech.hotstar.com/}{Disney+ Hotstar}}{Bengaluru, India}{Software Development Engineer II (Data Platform, Growth Engineering)}{Jul `20 - Present}
-    \item Designed \& implemented a \textbf{streaming data quality framework} which validates incoming events at the ingestion layer. Also built its self-serve tooling (visual schema editor) and CLI complements. Also contributed patches to our ETL data quality suite.
-    \item Migrated various critical platform ETLs from \textbf{Oozie to Airflow}; wrote Airflow operators which helped in abstraction and reusability of commonly-used workflows across org. Addressed wide range of production incidents as on-call engineer - from Hive/Spark to Kafka to microservices.
-    \item Took lead in implementing our re-architected \textbf{Change-Data-Capture framework} (CDC) to improve parallelization, configurability, reliability and data-freshness. Also designed a declarative GitOps pipeline to onboard new CDC jobs real fast.
-    \item Led the foundational efforts in \textbf{Growth Engineering} team to enable Data Platform, Subscriptions \& Payments services to new markets in South-East Asia; introduced major refactors to the subscriptions partnership framework which cut down new onboarding times by over 80\%. Also initiated the design work of \textit{async APIs} for the same.
-    \item Designed and architected a fault-tolerant backend for supporting \textbf{Android in-app-payments} for subscriptions.
-    \item Drove the development and release of the highly extensible framework behind \textbf{Disney+ Worldwide Pre-Launch \& Landing pages}.\\
-    \faicon{line-chart} \textit{Bringing my A-game to the table and investing in each others' growth has been my top priority!}
-  \end{rSubsection}
+  \begin{rSubsection}{\href{https://commandk.dev}{CommandK}}{Bengaluru, India}{Founding Engineer (Backend, Infrastructure)}{Aug `22 - Mar `24}
+    \item Collaborated in the foundational efforts of secrets and configuration management platform. From \textbf{decoupled RBAC} to \textbf{infra-as-code} in Pulumi, from \textbf{Kubernetes operators} to \textbf{cloud-native admission-controllers}.
+    \item Took lead in the intricacies of \textbf{multi-cloud deployments}, both on-premise and hosted.
+          \end{rSubsection}
+
+  \begin{rSubsection}{\href{https://tech.hotstar.com}{Disney+ Hotstar}}{Bengaluru, India}{Software Development Engineer I \textrightarrow II (Data Platform, Growth Engineering)}{Jul `20 - Jul `22}
+    \item Designed \& implemented a \textbf{streaming data quality framework} which validates incoming events at the ingestion layer; built its self-serve tooling (visual schema editor), CLI complements and at-rest data quality suite.
+    \item Addressed a wide range of production incidents wearing the \textbf{on-call engineer} hat (including mega events \textbf{IPL} '20, '21, '22); across self-hosted Hive/Spark/Kafka/Flink/Presto.
+    \item Took lead in implementing our re-architected \textbf{Change-Data-Capture framework} (CDC) to improve parallelization, configurability, reliability and data-freshness; introduced GitOps into Airflow CDC pipelines.
+    \item Led the foundational efforts in \textbf{Growth Engineering} team to enable Data Platform, Subscriptions \& Payments services to new markets in South-East Asia; introduced major refactors (like async customer-facing APIs) to the subscriptions partnership framework which cut down new onboarding times by over 80\%.
+    \item Designed and architected a fault-tolerant backend for supporting \textbf{Android in-app-payments} for subscriptions across India and SEA apps.
+    \item Drove the development and release of the highly extensible framework behind \textbf{Disney+ Worldwide Pre-Launch \& Landing pages}.
+      \end{rSubsection}
 
   \vspace*{-\baselineskip}
 
-  \begin{rSubsection}{}{}{Intern (Data Platform)}{June `19 - Jul `19, Jan `20 - Jun `20}
+  \begin{rSubsection}{}{}{Intern (Data Platform) \textrightarrow PPO}{June `19 - Jul `19, Jan `20 - Jun `20}
     \item Designed and developed a \textbf{storage-layer resource optimization} framework, which when benchmarked achieved xx\% improvements in query times and x\% reductions in data lake storage costs.
-    \item Crafted a batch \textbf{data metrics collection} job, which helped in increased visibility and static monitoring of data sanity.\\
-    \faicon{rocket} \textit{The leadership was impressed with my performance and collaboration and I was offered a PPO!}
-  \end{rSubsection}
+    \item Crafted a batch \textbf{data metrics collection} job, which helped in increased visibility and static monitoring of data sanity.
+      \end{rSubsection}
 
   \begin{rSubsection}{\href{https://www.guvi.in/}{Guvi Geek Networks}}{Chennai, India}{Intern}{Mar `18 - Jul `18, Dec `18}
-    \item Responsible for collaborating on Guvi 2.0 platform, an adaptive \textbf{performance-based learning platform}.
-    \item Developed an in-house \textbf{resume parsing} system with sub-second query latency for 20K+ data; our software supports a diverse range of resume formats.
-    \item Designed and developed an English \textbf{spelling \& grammatical corrector}; achieved around 73\% accuracy when benchmarked with Grammarly \& human proofreading.\\
-    \faicon{bolt} \textit{We (two of us interns) architected as well implemented the latter projects' MVP in tight two months!}
-  \end{rSubsection}
+    \item Responsible for collaborating on Guvi 2.0 platform, an \textbf{adaptive learning platform} (via rule-based algorithms).
+    \item Developed an in-house \textbf{resume parsing} system with sub-second retrieval latency for 20K+ entities; our software supports a diverse range of resume formats. Released as OSS [\textbf{\href{https://github.com/rounakdatta/resxme}{\faicon{github}}}].
+    \item Designed and developed an English \textbf{spelling \& grammatical corrector} using classical NLP methods; achieved around 73\% accuracy when benchmarked with Grammarly \& human proofreading. Released as OSS [\textbf{\href{https://github.com/rounakdatta/correctly}{\faicon{github}}}].
+      \end{rSubsection}
 
 \end{rSection}
 
 \begin{rSection}{Strengths}
 
   \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-    Programming Languages   & Java, Go, Python, Scala, C++                            \\
-    Databases               & MySQL, Redis; Prometheus, InfluxDB; Apache Hive         \\
-    Frameworks              & Apache Spark, Apache Kafka, Spring Framework; Terraform \\
-    Application Development & ReactJS; Android SDK, Ionic Cordova                     \\
+    Programming Languages   & Kotlin, Java, Go, Python, OCaml, Nix                            \\
+    Databases               & PostgreSQL, MySQL, Redis; Prometheus, InfluxDB; Apache Hive         \\
+    Frameworks              & Apache Spark, Apache Kafka, Spring Framework; Pulumi, Terraform \\
+    Application Development & Android SDK, Ionic Cordova, ReactJS                     \\
   \end{tabular}
 \end{rSection}
 
 \begin{rSection}{Selected Projects}
-  \textbullet\ \textbf{\textsf{GoDFS}} [\textbf{\href{https://rounakdatta.github.io/posts/godfs}{\faicon{link}}}] [\textbf{\href{https://github.com/rounakdatta/GoDFS}{\faicon{github}}}] -  Implemented a  toy distributed filesystem in Go. Handled the aspects of hearbeat \& secondary namenode for fault tolerance; packaged as Docker Compose.
+  \textbullet\ \textbf{\textsf{GoDFS}} [\textbf{\href{https://rounakdatta.github.io/posts/godfs}{\faicon{link}}}] [\textbf{\href{https://github.com/rounakdatta/GoDFS}{\faicon{github}}}] - Implemented a  toy distributed filesystem in Go. Handled the aspects of hearbeat \& secondary namenode for fault tolerance; packaged as Docker Compose.
 
   \textbullet\ \textbf{\textsf{Argus (PagerDuty for Things)}} [\textbf{\href{https://rounakdatta.github.io/posts/pagerduty-for-iot}{\faicon{link}}}] [\textbf{\href{https://github.com/rounakdatta?tab=repositories&q=argus}{\faicon{github}}}] - An IoT project exhibiting continuous monitoring of fluid level and automated alerting on mobile devices. From ESP32 firmware development to backend service to cross-platform app, I solo-developed it all.
 
