@@ -1,11 +1,6 @@
-# A LaTeX resume template
+## Source code for my resume
 
-`resume.cls` is a document class that adds name and address information to the
-head of the document and provides resume section and subsection environments
-(`rSection` and `rSubsection`).  The address separator format, the
-`rSubsection` heading format, and the skip sizes defined in `resume.cls` can be
-customized.
+I like documenting my career in public, and I cannot lie. `resume.cls` is the design of this template originally crafted by Trey Henner. Some modifications (following the license) have been made by me. `resume.tex` is my instance of the template which is supposed to contain only data elements.
 
-### License
+While I discoverd this template via Overleaf, I now edit my resume on Emacs (which has a fantastic side-panel-preview render like Overleaf) and of course the history is being tracked on this git repository. [LatexOnline](https://latexonline.cc) is a free web service to render a LaTeX source code like this and I use that to generate a JIT preview.
 
-Please see LICENSE file.
